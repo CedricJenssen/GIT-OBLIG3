@@ -9,7 +9,7 @@ public class LeapYearTests {
     //Var litt usikker på hvordan jeg skulle navngi testene.
     @Test
     public void year_400_is_a_leap_year() {
-        assertFalse(LeapYear.isLeapYear(400));
+        assertTrue(LeapYear.isLeapYear(400));
     }
 
     @Test
